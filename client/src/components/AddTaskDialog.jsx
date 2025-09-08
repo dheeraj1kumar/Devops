@@ -66,7 +66,7 @@ const AddTaskDialog = ({ onClose, onSubmit }) => {
       <div className="bg-white rounded-lg shadow-xl max-w-md w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b">
-          <h2 className="text-xl font-semibold text-gray-900">Add New Task</h2>
+          <h2 className="text-xl font-semibold text-gray-900">Add New Task and Description</h2>
           <button
             onClick={onClose}
             className="text-gray-400 hover:text-gray-600 transition-colors duration-200"
